@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #div1 {
+            width: 350px;
+            height: 70px;
+            padding: 12px;
+            border: 2px solid #aaaaaa;
+        }
+    </style>
+    <script>
+        function allowDrop(ev) {
+            console.log('inside allow drop',ev);
+            ev.preventDefault();
+        }
+
+        function drag(ev){
+            console.log('inside drag',ev);
+            ev.dataTransfer.setData("text",ev.target.id);
+        }
+        function drop(ev) {
+            console.log('inside drop',ev);
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+
+<body>
+
+<p>Drag the W3schools image into the rectangle:</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="draql" src="https://www.w3schools.com/html/img_logo.gif" 
+draggable="true" ondragstart="drag(event)" width="338" height="79">
+
+</body>
+
+</html>

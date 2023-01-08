@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Click the buttion to get yokur coordinates.</p>
+        <button onclick="getLocation()">try It</button>
+        <p id="demo"></p>
+
+        <script>
+            var X = document.getElementById("demo");
+
+            function getLocation(){
+                // alert("inside getLocation");
+                if (navigator.geolocation){
+                    // alert("inside geolocation");
+                    navigator.geolocation.getCurrentPosition(showPosition, showError);
+                }else{
+                    X.innerHTML = "Geolacation is not supported b theis broweser.";
+                }
+            }
+
+            function showPosition(position){
+                // alert("inside showPosition");
+                X.innerHTML = "Latitude: " + position.coords.latitude+
+                "<br>Longitude: " + position.coords.latitude;
+            }
+
+            function showError(error){
+                // alert("inside error");
+                switch(error.code){
+                    case error.PERMISSION_DENIED:
+                        X.innerHTML = "User denied the request for Geolocation."
+                        break;
+                   case error.POSITION_UNAVAILABLE:
+                         X.innerHTML = "Location information is unavailable."
+                         break;
+                    case error.TIMEOUT:
+                        X.innerHTML = "location  information is unavilable."
+                        break;
+                    case error.UNKNOWN_ERROR:
+                        X.innerHTML = "An unknown error occured."
+                         break;
+                      }
+            }
+
+           
+        </script>
+    </body>
+</html>

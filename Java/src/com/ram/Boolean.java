@@ -5,6 +5,7 @@ public class Boolean {
 		double myAge = 19.7d;
 		double voteAge = 19.7d;
 		System.out.println(myAge >= voteAge);
+		System.out.println("test");
 
 	}
 

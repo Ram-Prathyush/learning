@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var myVideo;
+
+            function initialize(){
+                myVideo = document.getElementById('video');
+            }
+
+            function play(){
+               
+                console.log(myVideo);
+                console.log('inside play');
+                if (myVideo.paused)
+                myVideo.play();
+                else
+                myVideo.pause();
+            }
+           function big(){
+            console.log('big');
+            myVideo.width=1000;
+            }
+            function small(){
+                console.log('inside small');
+                myVideo.width=45;
+            }
+            function normal(){
+                console.log('inside normal');
+                myVideo.width=560;
+            }
+
+
+
+
+
+        </script>
+    </head>
+    <body onload="initialize()">
+        <div style="text-align:center;">
+            <button onclick = "play()">Play/Pause</button> 
+            <button onclick = "big()">Big</button>
+            <button onclick = "small()">Small</button>
+            <button onclick = "normal()">Normal</button>
+            <br/><br/><br/>
+            <video id="video" width="560">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                sorry canceled.
+            </video>
+        </div>
+        <script>
+        
+
+        </script>
+
+    </body>
+</html>

@@ -17,5 +17,11 @@ public class Section2 {
         int passenger = 567;
         System.out.print("More passengers I got than yesterday = Passenger:");
         System.out.println(passenger);
+        int busSpeed = 132;
+        System.out.print ("Top speed of the bus is  = km"); 
+        System.out.println(busSpeed);
+        int slowestSpeed = 34;
+        System.out.print("Slowest speed of my bus is = km");
+        System.out.println(slowestSpeed);
     }
 }

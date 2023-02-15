@@ -16,6 +16,7 @@ body{
     background-color: white;
     font-family:'Mlti',sans-serif;
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: antiquewhite;
+    font-family:'Mlti',sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.key{
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px rgb( 1, 1, 1,0.1 );
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small{
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-size: 14px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/day-19/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Backround slider</title>
+<link rel="stylesheet" href="./Backround slider_files/style.css"><link rel="stylesheet" href="./Backround slider_files/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"></head>
+<body style="background-image: url(&quot;https://source.unsplash.com/FCSQRPEtXVI&quot;);">
+    <div class="slider-container">
+
+       
+        <div class="slide active" style="background-image: url(&#39;https://source.unsplash.com/FCSQRPEtXVI&#39;);">
+        </div>
+
+        <div class="slide" style="background-image: url(&#39;https://source.unsplash.com/OoPs1OSwE0Mh&#39;);">
+        </div>
+
+       
+        <div class="slide" style="background-image: url(&#39;https://source.unsplash.com/zjOH3x8TEUA&#39;)">
+        </div>
+
+       
+        <div class="slide" style="background-image: url(&#39;https://source.unsplash.com/HBop_t9V9kM&#39;)">
+        </div>
+
+       <button class="arrow left-arrow" id="left">
+            <i class="fas fa-arrow-left"></i>
+       </button>
+
+       <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+       </button>
+    </div>
+    <script src="./Backround slider_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

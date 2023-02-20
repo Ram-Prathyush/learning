@@ -16,10 +16,14 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
+
 .container{
     display: flex;
     width: 90vw;
 }
+
+
 .panel{
     background-size: auto 100%;
     background-position: center;
@@ -33,6 +37,8 @@ body{
     position: relative;
     transition: flex 0.7s ease-in;
 }
+
+
 .panel h3{
     font-size: 25px;
     position: absolute;
@@ -41,6 +47,8 @@ body{
     margin: 0;
     opacity: 0;
 }
+
+
 .panel.active{
     flex:5;    
    }
@@ -54,6 +62,8 @@ body{
     .container{
         width: 100vw;
     }
+
+    
     .panel:nth-of-type(4),
     .panel:nth-of-type(5){
     display: none;

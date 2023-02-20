@@ -48,4 +48,6 @@ function updatebigCup(){
         remained.style.visibility='visible';
         liters.innerText = `${2-(250*fullCups / 1000)}L`
     }
+    //20c582b8cb68408c8313f9c8d4e47e73
+   
 }

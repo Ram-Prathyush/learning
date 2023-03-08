@@ -19,17 +19,33 @@ public class RockPaperSiccors {
 
         if (ready.equals("yes")) {
             System.out.println("Great");
-            System.out.println("Type the letter when i say shoot");
-            System.out.println("Ok Rock, Paper, Siccor and... Shoo");
+            System.out.println("Type the command when i say shoot");
+            System.out.println("Ok Rock, Paper, Siccor and... Shoot");
             String choice = scan.nextLine();
             String  computerChoice = cChoice();
             String result = result(choice, computerChoice);
             printResult(choice, computerChoice, result);
         } else {
             System.out.println("Let us play another day , boring");
-
         }
+                for(int i = 0; i < 10; i++){
+                    System.out.println("type yes when you are ready to play the next match");
+                    String Ques1 = scan.nextLine();
+                    if(Ques1.equals("yes")){
+                        System.out.println("Welcome to the next game");
+                        System.out.println("Ok Rock, Paper, Siccor and... Shoot");
+                    String choice2 = scan.nextLine();
+                    String  computerChoice2 = cChoice();
+                    String result2 = result(choice2, computerChoice2);
+                    printResult(choice2, computerChoice2, result2);
+                }else{
+                    System.out.println("Ok bey");break;
+                }
+            }
+        
+        
     }
+    
 
     /**
      * @return
@@ -53,17 +69,17 @@ public class RockPaperSiccors {
     public static String result(String yourChoice, String computerChoice) {
         String result = "";
 
-        if (yourChoice.equals("Rock") && computerChoice.equals("Sissor")) {
+        if (yourChoice.equalsIgnoreCase("Rock") && computerChoice.equals("Sissor")) {
             result = "your Win";
-        } else if (yourChoice.equals("Paper") && computerChoice.equals("Rock")) {
+        } else if (yourChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Rock")) {
             result = "your win";
-        } else if (yourChoice.equals("Paper") && computerChoice.equals("Sissor")) {
+        } else if (yourChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Sissor")) {
             result = "your loose";
-        } else if (yourChoice.equals("Sissor") && computerChoice.equals("Paper")) {
+        } else if (yourChoice.equalsIgnoreCase("Sissor") && computerChoice.equals("Paper")) {
             result = "your win";
-        } else if (yourChoice.equals("Rock") && computerChoice.equals("Paper")){
+        } else if (yourChoice.equalsIgnoreCase("Rock") && computerChoice.equals("Paper")){
             result = "your loose";
-        }else if(yourChoice.equals(computerChoice)){
+        }else if(yourChoice.equalsIgnoreCase(computerChoice)){
             result = "Its a tie";
         }else{
             System.out.println("INVILAD CHOICE");
@@ -76,10 +92,12 @@ public class RockPaperSiccors {
      * @param computerChoice
      * @param result
      */
+    
     public static void printResult(String yourChoice, String computerChoice, String result){
         System.out.println(computerChoice);
         System.out.println("you Choose - " + yourChoice);
         System.out.println("Computer Choose - " + computerChoice);
         System.out.println(result);
+       
     }
 }

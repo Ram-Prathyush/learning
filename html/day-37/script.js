@@ -1,7 +1,7 @@
 const poke_container = document.getElementById('poke_container')
-const pokemon_count = 251;
-const colors ={
-    normal: '#F5F5F5', 
+const pokemon_count = 892;
+const colors = {
+    normal: '#', 
 	fire: '#EE8130',
 	water: '#6390F0',
 	electric: '#F7D02C',
@@ -49,7 +49,7 @@ const getPokemon = async (id) => {
 	const color = colors[type];
 	pokemonEl.style.backgroundColor = color;
 
-	const pokemonInnerHTML = '<div class="img-container">	<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/'+pokemon.id+'.png" alt=""></div><div class="info"><span class="number">'+id+'</span><h3 class="name">'+name+'</h3><small class="type">Type: <span> '+type+' </span></small></div>';	
+	const pokemonInnerHTML = '<div class="img-container">	<img src=" https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/'+pokemon.id+'.png" alt=""></div><div class="info"><span class="number">'+id+'</span><h3 class="name">'+name+'</h3><small class="type">Type: <span> '+type+' </span></small></div>';	
 	
 	pokemonEl.innerHTML = pokemonInnerHTML;
 	// console.log('poke_container',poke_container)

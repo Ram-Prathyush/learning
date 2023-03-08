@@ -9,12 +9,12 @@ box-sizing: border-box;
 
 body{
     background: #efefbb;
-    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    background: linear-gradient(to right, rgb(253, 0, 0), #131094);
     font-family: 'lato','san serif';
     display:flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -33,7 +33,7 @@ h1{
 
 .pokemon{
     background-color: #eee;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 3px 15px rgba(100,100,100,0.5);
     margin: 10px;
     padding: 20px;
@@ -49,7 +49,7 @@ h1{
 
 .pokemon .img-container img{
     max-width: 90%;
-    margin: top 20p;
+    margin: top 20px;
 }
 
 .pokemon .info{

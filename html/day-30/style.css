@@ -13,7 +13,10 @@ box-sizing: border-box;
 
 
 body{
-    background-color: darksalmon;
+    background-color: goldenrod;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
     font-family:'Mlti',sans-serif;
     display:flex;
     flex-direction: column;
@@ -36,7 +39,8 @@ input{
     width: 50px;
     padding: 5px;
     font-size: 18px;
-    background-color: darksalmon;
+    background-color: goldenrod;
+    color: white;
     border: none;
     text-align: center;
 }

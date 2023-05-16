@@ -67,7 +67,7 @@ body{
 }
 
 .nav.active .container{
-    padding: 10px 0;
+    padding: 2000px 0;
 }
 
 .nav a.current, .nav a:hover{
@@ -77,12 +77,12 @@ body{
 
 .logo {
     background-color: #222;
-    width: 10pc;
-    background-color: yellow;
+    width: 12pc;
+    background-color: black;
 }
 
 .hero{
-    background-image: url('/assets/image/dialga.gif');
+    background-image: url('/assets/image/kuzhikalari.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;

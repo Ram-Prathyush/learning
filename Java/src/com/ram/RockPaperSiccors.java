@@ -12,15 +12,16 @@ public class RockPaperSiccors {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Come to play rock papper siccors if u dare!");
-        System.out.println("Because i'am and legendry");
+        System.out.println("Come to play rock papper siccors");
+        System.out.println("if you dont want press anything except 'yes'");
         System.out.println("Say 'yes' ");
         String ready = scan.nextLine();
 
         if (ready.equals("yes")) {
             System.out.println("Great");
             System.out.println("Type the command when i say shoot");
-            System.out.println("Ok Rock, Paper, Siccor and... Shoot");
+            System.out.println("Ok Rock, Paper, Siccor and... Shoot\n");
+            System.out.print("You choose: ");
             String choice = scan.nextLine();
             String  computerChoice = cChoice();
             String result = result(choice, computerChoice);

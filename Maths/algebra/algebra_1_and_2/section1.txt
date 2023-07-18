@@ -1,0 +1,6 @@
+16/7/2023
+distbrutive property:
+it is just like multlyplying
+example:3(a+b)=3a+3b
+
+git remote add origin https://github.com/Ram-Prathyush/learning.git

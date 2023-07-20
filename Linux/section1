@@ -1,5 +1,12 @@
 18/7/2023
 creating archives using
 tar cvf archive.[filename]
+tar xvf archive.[filename] used for : extracting the files
+tar tvf archive.[filename] used for : Listing things from the archive
 commpressing files using
 gzipand bzip2
+20/7/23
+* discription: Matches any charactar
+? discription: Matches exactly one charctar
+[] discription:Matches any of the charecters enclosed in the brackets
+\ discription: escape character

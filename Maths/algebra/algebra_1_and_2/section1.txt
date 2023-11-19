@@ -1,0 +1,16 @@
+16/7/2023
+distbrutive property:
+it is just like multlyplying
+example:3(a+b)=3a+3b
+
+18/7/23
+PEMDAS order of algebra
+
+full form
+P --> PARENTSESS or BRACKETS e.x {} [] () ||
+E -->EXPONENTS e.x 2 TO THE POWER OF 2 etc
+M --> MULTIPLICATION e.x 2 x 3
+D --> DIVISION e.x 3/2
+A --> ADDTION e.x 2+3
+S --> SUBSTRACTION e.x 7-3
+

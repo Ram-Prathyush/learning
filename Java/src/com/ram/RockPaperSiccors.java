@@ -16,7 +16,7 @@ public class RockPaperSiccors {
         System.out.println("if you dont want press anything except 'yes'");
         System.out.println("Say 'yes' ");
         String ready = scan.nextLine();
-
+ 
         if (ready.equals("yes")) {
             System.out.println("Great");
             System.out.println("Type the command when i say shoot");
@@ -57,7 +57,7 @@ public class RockPaperSiccors {
 
         switch (integer) {
             case 0:
-                return "Sissor";
+                return "Siccor";
             case 1:
                 return "Rock";
             case 2:
@@ -73,10 +73,10 @@ public class RockPaperSiccors {
         if (yourChoice.equalsIgnoreCase("Rock") && computerChoice.equals("Sissor")) {
             result = "your Win";
         } else if (yourChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Rock")) {
-            result = "your win";
-        } else if (yourChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Sissor")) {
+        result = "your win";
+        } else if (yourChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Siccor")) {
             result = "your loose";
-        } else if (yourChoice.equalsIgnoreCase("Sissor") && computerChoice.equals("Paper")) {
+        } else if (yourChoice.equalsIgnoreCase("Siccor") && computerChoice.equals("Paper")) {
             result = "your win";
         } else if (yourChoice.equalsIgnoreCase("Rock") && computerChoice.equals("Paper")){
             result = "your loose";

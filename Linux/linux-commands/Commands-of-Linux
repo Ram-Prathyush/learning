@@ -1,0 +1,28 @@
+
+Linux Commands:-
+
+Ultimate command:-
+mkdir {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2027..2022}
+touch  {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}_{2027..2022}/{1..100}
+Linux Commands:-
+
+  Command                   |      Description of command
+   echo                             |  Gives out the input which you give
+   cd                                  | Changes the directory
+   ls                                   | Lists the files and folders in the directoryes
+   pwd                              | Prints the working directory
+   cut                                | Cuts off a speficic part of any output with more than two words
+   mkdir                          | Makes a directory
+   touch                           | Makes a file
+    rm                               | For deleting files and Directoryes
+    rm-i                            | An Too interacting edition
+    mv                               | For moving and renaming a file or directoryes
+    cp                                 | For copying and pasting file or directoryes
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+

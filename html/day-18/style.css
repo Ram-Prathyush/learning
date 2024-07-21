@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root{
-    --primery--color: darkslateblue;
+    --primery--color: blue;
     --secondry--color: dodgerblue;
 }
 
@@ -27,11 +27,11 @@ header{
 
 .search{
     background-color: transparent;
-    border: 2px solid var(--primery--color);
+    border: 2px solid var(White);
     border-radius: 50px;
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: violet;
 }
 
 .search::placeholder{
@@ -40,7 +40,7 @@ header{
 
 .search:focus{
     outline: none;
-    background-color: var(--primery--color);
+    background-color: var(magenta);
 }
 
 main{

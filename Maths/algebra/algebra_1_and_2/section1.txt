@@ -1,9 +1,11 @@
 16/7/2023
+---------
 distbrutive property:
 it is just like multlyplying
 example:3(a+b)=3a+3b
 
 18/7/23
+-------
 PEMDAS order of algebra
 
 full form
@@ -12,5 +14,70 @@ E -->EXPONENTS e.x 2 TO THE POWER OF 2 etc
 M --> MULTIPLICATION e.x 2 x 3
 D --> DIVISION e.x 3/2
 A --> ADDTION e.x 2+3
-S --> SUBSTRACTION e.x 7-3
+S --> SUBSTRACTION e.x 7-3 = 
+
+20/7/23
+-------
+evalvauting expressions
+if : x=-1 y=3 m=4 n=2
+x-y(m+n)
+-4(6)
+ans -24
+
+22/7/23
+--------
+inverse opreation
+6-4= 2
+4+2=6
+ithe inverse opration of substraction is addtion and inverse opration of addtion is substraction
+5x4=20
+20/4=5
+the inverse opration of multlication is division and the inverse opration of division is multiplication
+23/7/23
+simple equations
+x + 7 = 234
+what is the value of x
+to make 7 away from x we need to substract 7 from 7 so it is 0
+snd substract 7  from right hand side
+so x=227
+25/7/23
+balancing equations 
+if x + 5 = 2
+if we substract like this
+x + 5 = 2
+   -5
+__________
+x = 2 is wrong
+if we do like this
+x + 5 = 2
+___-5__-5______
+x = -3 that is correct
+
+8/7/23
+subscripts
+
+subscripts are like 
+y  k
+ p  k
+ they can be more useful to repesrent the things
+ 
+6/8/23
+polynomils
+is like multiple terms
+   2    3     4   3
+(2x + 4x )+(8x -7x )
+to remove from the brackets add 1 like below
+    2    3      4   3
+1(2x + 4x )+1(8x -7x )
+ then it will be removed
+ and after removing it will be like this
+   2     3   4   3
+ 2x  + 4x +8x -7x
+ after that you can add and substract like normal algebra
+ 
+ 18/8/23
+ zero threom
+ if a.b=0
+ any a  or b must be zero 
+ that is the most simplist zero therom
 

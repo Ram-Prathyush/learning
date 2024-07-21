@@ -1,12 +1,26 @@
 18/7/2023
+---------
 creating archives using
 tar cvf archive.[filename]
 tar xvf archive.[filename] used for : extracting the files
 tar tvf archive.[filename] used for : Listing things from the archive
 commpressing files using
 gzipand bzip2
-20/7/23
+
+22/7/23
+-------
 * discription: Matches any charactar
 ? discription: Matches exactly one charctar
 [] discription:Matches any of the charecters enclosed in the brackets
 \ discription: escape character
+23/7/23
+nano
+nano is a editing tool
+to activate nano just type
+nano {file name}
+the it is over
+3/8/23
+dericting and redirecting in linux
+> - terminal to texteditor
+>> - if we use  > this thing it over writes it so if we use this  >> it will not over write it
+<- if we use this it will do texteditor to ternimal

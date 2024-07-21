@@ -14,6 +14,7 @@ body{
     font-family:'Mlti',sans-serif;
     color: #222;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 
 .container{
@@ -53,13 +54,61 @@ body{
 }
 
 .container-content {
-    background-color: white;
     padding: 60px 300px;
-    flex: 2;
+    background-image:url('/assets/image/mew.png');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
+}
+
+.container-2 {
+    padding: 60px 300px;
+    background-image:url('/assets/image/mega.avif');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
+}
+
+.container-3{
+    padding: 60px 300px;
+    background-image: url('/assets/image/water.jpg');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
+}
+
+.container-4{
+    padding: 60px 300px;
+    background-image: url('/assets/image/supastrikers.jpg');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
+    align-items: right;
 }
 
 .nav.active{
     background-color: #fff;
+}
+
+.Section-4{
+    font-size: 50px;
+    color: #fff;
+}
+
+.picture-1{
+    padding: 60px 300px;
+    background-image: url('/assets/image/Ash_Greninja.png');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
+}
+
+.picture-2{
+    padding: 60px 300px;
+    background-image: url('/assets/image/supa.jpg');
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 670px;
 }
 
 .nav.active a{
@@ -71,18 +120,17 @@ body{
 }
 
 .nav a.current, .nav a:hover{
-    color: red;
-    font-weight: bold;
+    color: darkturquoise;
 }
 
 .logo {
     background-color: #222;
     width: 12pc;
-    background-color: black;
+    background-color: rgb(255, 196, 0);
 }
 
 .hero{
-    background-image: url('/assets/image/kuzhikalari.jpg');
+    background-image: url('/assets/image/ash-greninja.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;

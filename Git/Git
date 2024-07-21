@@ -1,0 +1,12 @@
+History of Github:
+
+Github was created by Linus Torvalds in 2005
+Linus is famous for creating the linux kernel.
+Linus also created a another VCS called bitkeeper and it became proporatry.
+Linus created the basic foundation of git in just 3 days !.
+Github was started in 2007
+Github was sold to microsoft for $7.5 million dollars.
+
+Comands in Github:
+git config user.name(or)git config user.email
+git clone

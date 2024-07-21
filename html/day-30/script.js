@@ -1,6 +1,6 @@
 const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = 'Happy Advanced Birthday Amma!'
+const text = 'Very Very Happy Birthday Amma!'
 let idx = '1'
 let speed = 300/speedEl.value
 

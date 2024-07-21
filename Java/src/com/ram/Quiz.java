@@ -42,11 +42,7 @@ public class Quiz {
 
         int score = 0;
 
-        if(ans1.equals("SlowPok")){
-            score += 5;
-        }else{
-            System.out.println("Wrong!");
-        }
+       
         if(ans2.equals("Arcuese")){
             score += 5;
         

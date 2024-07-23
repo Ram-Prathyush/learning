@@ -21,9 +21,18 @@ h2{
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color: rgba(235, 5, 5, 0.978);
+    color: rgba(5, 151, 235, 0.836);
 }
 
-article{
-    color: rgba(10, 2, 248, 0.85);
+list{
+    color: rgba(245, 50, 50, 0.906);
+    text-transform: capitalize;
+    text-decoration-color: rgba(5, 239, 239, 0.934);
+    text-decoration: wavy;
+    padding: 75%;
+}
+
+impress{
+    color: rgba(129, 34, 238, 0.835);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,4 +1,10 @@
+*{
+    background-color: rgba(255, 255, 255, );
+}
+
 Header{
+    
+
     color: #15d4cae8; 
     font-size:50px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -35,4 +41,9 @@ list{
 impress{
     color: rgba(129, 34, 238, 0.835);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+header p{
+    font-style: italic;
 }

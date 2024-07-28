@@ -46,4 +46,11 @@ impress{
 
 header p{
     font-style: italic;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(245, 237, 237);
+    outline-color: rgb(230, 166, 143);
+    
 }

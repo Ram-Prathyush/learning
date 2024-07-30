@@ -40,8 +40,8 @@ list{
 
 impress{
     color: rgba(129, 34, 238, 0.835);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
 }
 
 header p{
@@ -52,7 +52,9 @@ header p{
 header{
     outline-color: rgb(230, 166, 143);
     border-top: 30px solid #15d4cae8;
-    
+        background-color: black;
+        top: 50px;
+        left: 50px;
 }
 
 body{
@@ -63,4 +65,10 @@ h2{
     font-family: sans-serif;
     text-emphasis-color: white;
     color: rgb(95,105,115,0.999);
+    font-weight: bolder;
+}
+
+starter{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: expanded;
 }

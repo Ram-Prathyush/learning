@@ -31,11 +31,7 @@ p {
 }
 
 list{
-    color: rgba(245, 50, 50, 0.906);
-    text-transform: capitalize;
-    text-decoration-color: rgba(5, 239, 239, 0.934);
-    text-decoration: wavy;
-    padding: 75%;
+    color: rgba(245, 50, 50, 0.906); 
 }
 
 impress{
@@ -71,4 +67,8 @@ h2{
 starter{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-stretch: expanded;
+}
+
+a:link{
+    color: aquamarine;
 }

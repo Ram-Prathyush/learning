@@ -3,13 +3,12 @@
 }
 
 Header{
-    
-
     color: #15d4cae8; 
     font-size:50px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
     font-style: italic;
+    border-radius: 40px;
 }
 
 description{ 
@@ -69,6 +68,27 @@ starter{
     font-stretch: expanded;
 }
 
-a:link{
-    color: aquamarine;
-}
+a {
+    color: rgb(83, 145, 157);
+  }
+  
+  a:hover {
+    color: rgba(236, 199, 129, 0.948);    
+  }
+  
+  a:active {
+    color: rgb(9, 226, 161);
+    text-decoration: none;
+  }
+
+  related{
+    color:  rgba(5, 151, 235, 0.836);
+    line-height: 5cap;
+    border-bottom: 5px rgb(100, 155, 15);
+    border-top: 5px;
+  }
+
+  secret{
+    text-align: center;
+  }
+

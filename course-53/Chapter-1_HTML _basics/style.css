@@ -1,20 +1,57 @@
 *{
-    background-color: rgba(255, 255, 255, );
+    background-color: black;
+}
+
+body{
+    background-color: black;
+    position: relative;
 }
 
 Header{
-    color: #15d4cae8; 
+    color: rgb(73, 166, 216); 
     font-size:50px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
     font-style: italic;
-    border-radius: 40px;
+    padding: 20px;
+}
+
+h2::after{
+    content: "TOP";
+    background-color:yellow;
+    padding:1px;
+    right: 0;
+    top: 25px;
+    display: inline-block;
+    font-size:16;
+    position: absolute;
+}
+
+aside{
+    border-top: 5px teal solid;
+    border-bottom:5px teal solid;
+    border-left: 5px teal solid;
+    border-right: 5px teal solid;
+    font-size: xx-large;
+    padding: 50px 15px;
+    width: 500px;
+}
+
+secret{
+    text-align: center;
 }
 
 description{ 
     font-size: small;
     font-weight: 100;
     text-decoration: dashed;
+    height: 100%;
+    width: 100%;
+}
+
+dev{
+    width: 100px;
+    margin:0 auto;
 }
 
 h2{
@@ -30,11 +67,10 @@ p {
 }
 
 list{
-    color: rgba(245, 50, 50, 0.906); 
+    color: teal; 
 }
 
 impress{
-    color: rgba(129, 34, 238, 0.835);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 2;
 }
@@ -46,20 +82,18 @@ header p{
 
 header{
     outline-color: rgb(230, 166, 143);
-    border-top: 30px solid #15d4cae8;
+    border-top: 20px solid #15d4cae8;
         background-color: black;
-        top: 50px;
         left: 50px;
+        border-bottom: 5px rgb(0, 0, 0) solid;
 }
 
-body{
-    background-color:rgb(0,0,0);
-}
+
 
 h2{
     font-family: sans-serif;
     text-emphasis-color: white;
-    color: rgb(95,105,115,0.999);
+    color: grey;
     font-weight: bolder;
 }
 
@@ -69,26 +103,63 @@ starter{
 }
 
 a {
-    color: rgb(83, 145, 157);
+    color: rgb(255, 94, 94);
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: auto;
+    margin-top: 10px;
   }
   
   a:hover {
-    color: rgba(236, 199, 129, 0.948);    
+    color: rgb(9, 226, 161);    
   }
   
   a:active {
-    color: rgb(9, 226, 161);
+    color: rgb(10, 238, 255);
     text-decoration: none;
   }
 
-  related{
-    color:  rgba(5, 151, 235, 0.836);
-    line-height: 5cap;
-    border-bottom: 5px rgb(100, 155, 15);
-    border-top: 5px;
-  }
 
-  secret{
-    text-align: center;
-  }
 
+big_blast{
+    color: rgba(5, 151, 235, 0.836);
+    font-size: xx-large;
+}
+
+.post-img{
+    padding: 100cm;
+    width: 100;
+    height: 100;
+}
+
+button{
+    color: red;
+    border-bottom:3px teal solid;
+    border-top:3px teal solid;
+    border-left:3px teal solid;
+    border-right:3px teal solid;
+    text-align: right;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    bottom: 0;
+    right: 0;
+}
+
+button:hover{
+    color:white;
+    border-bottom:3px white solid;
+    border-top:3px white solid;
+    border-left:3px white solid;
+    border-right:3px white dashed;
+}
+
+button:active{
+     color: rgb(9, 226, 161);
+    border-bottom:3px rgb(9, 226, 161);
+    border-top:3px rgb(9, 226, 161);
+    border-left:3px rgb(9, 226, 161);
+    border-right:3px rgb(9, 226, 161);
+}

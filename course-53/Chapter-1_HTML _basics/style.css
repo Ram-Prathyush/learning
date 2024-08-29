@@ -65,6 +65,11 @@ description{
     margin-left: 20px;
 }
 
+
+.clear{
+    clear: left;
+}
+
 dev{
     width: 100px;
     margin:0 auto;
@@ -84,6 +89,7 @@ p {
 
 list{
     color: teal; 
+    font-size: large;
 }
 
 impress{
@@ -178,4 +184,8 @@ button:active{
     border-top:3px rgb(9, 226, 161);
     border-left:3px rgb(9, 226, 161);
     border-right:3px rgb(9, 226, 161);
+}
+
+aside{
+    float: left;
 }

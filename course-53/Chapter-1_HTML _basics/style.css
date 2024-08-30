@@ -53,6 +53,7 @@ max{
 
 secret{
     text-align: center;
+    
 }
 
 description{ 
@@ -175,7 +176,7 @@ button:hover{
     border-bottom:3px white solid;
     border-top:3px white solid;
     border-left:3px white solid;
-    border-right:3px white dashed;
+    border-right:3px white solid;
 }
 
 button:active{
@@ -186,6 +187,13 @@ button:active{
     border-right:3px rgb(9, 226, 161);
 }
 
+article{
+    width: 1000px;
+}
+
 aside{
-    float: left;
+    float: right;
+    right: 0;
+    top: 0;
+    width: 500px;
 }

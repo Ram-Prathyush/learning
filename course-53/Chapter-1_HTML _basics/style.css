@@ -34,7 +34,7 @@ bla{
 }
 
 aside{
-    border-top: 5px teal solid;
+    border-top: 5px red solid;
     border-bottom:5px teal solid;
     border-left: 5px teal solid;
     border-right: 5px teal solid;
@@ -166,9 +166,9 @@ button{
     cursor: pointer;
     position: absolute;
     /* left: 0;
-    top: 0; */
+    top: 0; 
     bottom: 0;
-    right: 0;
+    right: 0;*/
 }
 
 button:hover{
@@ -188,12 +188,20 @@ button:active{
 }
 
 article{
-    width: 1000px;
+    width: 900px;
+    float: left;
 }
+
+bla{
+    clear: both;
+}
+
+
 
 aside{
     float: right;
     right: 0;
     top: 0;
-    width: 500px;
+    width: 300px;
+    color: white;
 }

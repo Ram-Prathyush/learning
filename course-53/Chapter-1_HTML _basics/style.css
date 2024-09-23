@@ -203,3 +203,27 @@ aside{
 footer{
     clear: both;
 }
+
+max{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+super{
+    font-size: 45px;
+}
+
+blabla{
+    font-size: 45px;
+}
+
+ash{
+    display: flex;
+    align-items: centers;
+}
+
+row{
+    flex-grow: 0;
+    flex-shrink: 0;
+}

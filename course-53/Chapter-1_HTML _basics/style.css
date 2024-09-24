@@ -227,3 +227,12 @@ row{
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+/* .container{
+    display: grid;
+    grid-template-columns: 900px 300px;
+    grid-column-gap: 75px;
+}
+
+.main-header{
+    /* grid-column: 1/span 2; */

@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* 
+  Main colour:#099268
+  grey colour:#343a40
+  */
   
   /* ------------------------ */
   /* GENERAL STYLES */
   /* ------------------------ */
   body {
     font-family: 'abel', serif;
+    color: #343a40;
   }
 
   p{
@@ -36,6 +42,34 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 80px;
+  }
+
+  .btn:link
+  ,.btn:visited{
+    background-color:#f03e3e;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-family: 'Happy monkey','san-sereif';
+  }
+
+  .btn:hover,
+  .btn:active{
+    background-color: #1c7ed6;
+  }
+
+  .btn--small{
+    font-size: 14px;
+    padding: 8px , 14px;
+  }
+
+  .btn--big{
+    font-size: 18px;
+    padding: 16px 32px;
   }
   
   /* ------------------------ */
@@ -87,6 +121,9 @@
   
   /* TESTIMONIAL */
   .testimonial-section {
+    background-color: #f03e3e;
+    color: #fff;
+    padding: 24px;
   }
   
   .testimonial-box {
@@ -124,10 +161,12 @@
     align-items: center;
     gap: 12px;
     margin-bottom: 24px;
+    font-size: 20px;
   }
   
   .chair-details li:last-child {
     margin-bottom: 0;
+
   }
   
   .chair-icon {
@@ -136,9 +175,11 @@
   .chair-price {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
   }
   
   footer {
     margin-bottom: 48px;
     font-size: 12px;
+    color: #495057;
   }

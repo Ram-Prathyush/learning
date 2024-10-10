@@ -28,7 +28,7 @@
   
   header,
   section {
-    margin-bottom: 48px;
+    margin-bottom: 88px;
   }
   
   h2 {
@@ -60,6 +60,9 @@
   .btn:hover,
   .btn:active{
     background-color: #1c7ed6;
+    transition: 10s;
+    transition-duration: 1s;
+    transition-delay: 0.3s;
   }
 
   .btn--small{
@@ -81,7 +84,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
-    margin-top: 48px;
+    margin-top: 64px;
   }
   
   .header-text-box {
@@ -108,8 +111,20 @@
   
   /* FEATURES */
   .features-icon {
+    stroke: #f03e3e;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .features-icon{
+    stroke: #f03e3e;
   }
   
+  .features-icon{
+    stroke: #f03e3e;
+  }
+
   .features-title {
     margin-bottom: 16px;
     font-size: 20px;
@@ -124,6 +139,13 @@
     background-color: #f03e3e;
     color: #fff;
     padding: 24px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+
+  .hero{
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
   }
   
   .testimonial-box {
@@ -145,6 +167,11 @@
   /* CHAIRS */
   .chair-box {
     padding: 24px;
+  }
+
+  .chair{
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
   }
   
   h3 {
@@ -170,6 +197,15 @@
   }
   
   .chair-icon {
+    stroke: #f03e3e;
+    height: 24px;
+    width: 24px;
+  }
+
+  .alt{
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
   
   .chair-price {

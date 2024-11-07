@@ -63,6 +63,8 @@
     transition: 10s;
     transition-duration: 1s;
     transition-delay: 0.3s;
+    box-shadow: 0px 20px 30px 0px rgba(7, 69, 255, 0.3);
+    
   }
 
   .btn--small{
@@ -152,6 +154,10 @@
     grid-column: 2 / -1;
     align-self: center;
   }
+
+  .testimonial-section:hover{
+    box-shadow: 0px 10px 30px 0px rgb(255, 113, 113);
+  }
   
   .testimonial-box h2 {
     margin-bottom: 24px;
@@ -172,6 +178,13 @@
   .chair{
     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .chair:hover,
+  .BTN:hover{
+    box-shadow: 0px 20px 30px 0px rgb(255, 86, 86);
   }
   
   h3 {
@@ -200,6 +213,10 @@
     stroke: #f03e3e;
     height: 24px;
     width: 24px;
+  }
+
+  .chair-icon:hover{
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
   }
 
   .alt{

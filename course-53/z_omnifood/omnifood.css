@@ -16,17 +16,6 @@ body{
     color: #555;
 }
 
-.grid--1--cols{
-    grid-template-columns: repeat(2,1fr);
-}
-
-.grid--2--cols{
-    grid-template-columns: repeat(3,1fr);
-}
-
-.grid--3--cols{
-    grid-template-columns: repeat(4,1fr);
-}
 
 .heading-primary{
     font-size: 5.2rem;
@@ -243,31 +232,46 @@ body{
 
 .section-how{
     padding: 9.6rem 0;
-    grid-template-columns: repeat(2.1fr);
+    background-color: dodgerblue;
 }
 
 .grid{
     display: grid;
-    gap: 9.6rem;
+    gap:9.6rem;
+    
 }
 
-.container{
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
+.grid--2--cols{
+    grid-template-columns: repeat(2,1fr);
 }
 
-.step-img{
-    width: 25%;
+.grid--3--cols{
+    grid-template-rows: repeat(3,1fr);
 }
 
-.one{
-    align-items: center;
-    display: flex;
+.grid--4--cols{
+    grid-template-rows: repeat(4,1fr);
 }
 
-.step-description{
-    text-align: center;
+.section-how div{
+    padding: 100px;
+    font-size: 50px;
 }
+
+.section-how div:nth-child(1){
+    background-color: aquamarine;
+}
+.section-how div:nth-child(2){
+    background-color: rebeccapurple;
+   color: #fff;
+}
+.section-how div:nth-child(3){
+    background-color: red;
+}
+.section-how div:nth-child(4){
+    background-color: yellow;
+}
+
+
 
 

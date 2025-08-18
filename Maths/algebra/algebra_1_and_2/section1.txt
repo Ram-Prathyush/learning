@@ -68,11 +68,11 @@ is like multiple terms
 (2x + 4x )+(8x -7x )
 to remove from the brackets add 1 like below
     2    3      4   3
-1(2x + 4x )+1(8x -7x )
+1(2x + 4x )+1(8x - 7x )
  then it will be removed
  and after removing it will be like this
    2     3   4   3
- 2x  + 4x +8x -7x
+ 2x  + 4x + 8x - 7x
  after that you can add and substract like normal algebra
  
  18/8/23
@@ -80,4 +80,13 @@ to remove from the brackets add 1 like below
  if a.b=0
  any a  or b must be zero 
  that is the most simplist zero therom
+ 
+ 11/2/25
+ variables :-
+ 
+ variables - x y etc are variables they are a another form of stable numbers
+ constants - 1,2,3 .. are constants they are normal numbers
+ equation - x + 2 = 5 
+ equations are the things having equal signs to indicate that the both numbers are equivalient
+ 
 

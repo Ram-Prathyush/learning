@@ -62,11 +62,11 @@ Meal 1: Japanese Gyozas
 
 Meal 2: Avocado Salad
 
-- Category: Vegan and Paleo
-- Calories: 400
-- NutriScore (Registered): 92
-- Average rating: 4.8
-- Number reviews: 441
+ Category: Vegan and Paleo
+ Calories: 400
+ NutriScore (Registered): 92
+ Average rating: 4.8
+ Number reviews: 441
 
 ### We offer a free sample meal
 
@@ -86,7 +86,7 @@ Starter: $399 per month
 
 Complete: $649 per month
 
-- 2 meal2 per day
+- 2 meals per day
 - Order 24/7
 - Delivery is free
 - Get access to latest recipes

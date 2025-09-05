@@ -20,7 +20,12 @@ while True:
             file = open('todos.txt', 'r')
             todos = file.readlines()
             file.close()
+
+            #new todos = [item.strip('\n') for item in todos]
+            #The method i did above is list comprenhition
+
             for index, item in enumerate(todos):
+                item = item.strip('\n')
                 item = item.title()
                 row = f"{index  + 1}- {item}"
                 print(row)

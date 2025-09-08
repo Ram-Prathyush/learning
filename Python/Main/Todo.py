@@ -42,6 +42,7 @@ while True:
 
              with open('todos.txt', 'w') as file:
                  file.writelines(todos)
+
         case 'complete':
              number = int(input('Number of the todo to complete: '))
              with open('todos.txt', 'r') as file:

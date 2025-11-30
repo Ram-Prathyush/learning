@@ -1,5 +1,3 @@
-play
-fix
+play a game
 read
 bore
-hello

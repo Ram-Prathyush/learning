@@ -4,14 +4,14 @@ while True:
     user_action = user_action.strip()
 
 
-    if "add" in user_action:
+    if user_action.startswith("add"):
         todo = user_action[4:]
 
         file  = open('todos.txt', 'r')
         todos = file.readlines()
         file.close()
 
-        todos.append(todo)
+        todos.append(todo + '\n')
 
         file = open('todos.txt', 'w')
         file.writelines(todos)
@@ -19,7 +19,7 @@ while True:
 
         user_action = user_action + '\n'
 
-    elif 'show' in user_action:
+    elif user_action.startswith("show"):
         file = open('todos.txt', 'r')
         todos = file.readlines()
         file.close()
@@ -29,34 +29,42 @@ while True:
             row = f"{index +1} -{item}"
             print(row)
 
-    elif 'edit' in user_action:
-        number = int(input('no. of the todo to edit: '))
-        number = number - 1
+    elif user_action.startswith("edit"):
+        try:
+            number = int(user_action[5:])
+            print(number)
 
-        file = open('todos.txt', 'r')
-        todos = file.readlines()
-        file.close()
+            number = number - 1
 
-        new_todo = input("Enter new todo: ")
-        todos[number] = new_todo + '\n'
+            with open('todos.txt', 'r') as file:
+                todos = file.readlines()
 
-        with open('todos.txt', 'w') as file:
-            file.writelines(todos)
+            new_todo = input ("Enter new todo: ")
+            todos[number] = new_todo + '\n'
+
+            with open('todos.txt','w')as file:
+                file.writelines(todos)
+        except ValueError:
+            print("Your command is not valid")
+            continue
+
+    elif user_action.startswith("complete"):
+        try:
+            number = int(user_action[9:])
+
+            file = open('todos.txt', 'r')
+            todos = file.readlines()
             file.close()
+            todos.pop(number - 1)
 
-    elif "complete" in user_action:
-        number = int(user_action[9:])
+            with open('todos.txt', 'w') as file:
+                file.writelines(todos)
+                file.close()
+        except IndexError:
+            print("Out of the range")
+            continue
 
-        file = open('todos.txt', 'r')
-        todos = file.readlines()
-        file.close()
-        todos.pop(number - 1)
-
-        with open('todos.txt', 'w') as file:
-            file.writelines(todos)
-            file.close()
-
-    elif 'exit' in user_action:
+    elif user_action.startswith("exit"):
         break
 
     else:
